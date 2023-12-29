@@ -1,0 +1,13 @@
+.cursor-circle {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    background-color: purple;
+    border: 6px solid rgb(71, 23, 160);
+    border-radius: 50%;
+    pointer-events: none;
+    mix-blend-mode: difference;
+    filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.7));
+    z-index: 50000;
+  }
+  
